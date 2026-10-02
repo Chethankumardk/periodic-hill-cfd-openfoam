@@ -67,3 +67,34 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# OpenFOAM generated simulation data
+processor*/
+postProcessing/
+VTK/
+logs/
+log.*
+
+# OpenFOAM generated mesh
+constant/polyMesh/
+
+# ParaView state/cache files
+*.foam
+*.OpenFOAM
+*.pvd
+*.vtk
+*.vtu
+*.vtp
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Large temporary/archive files
+*.zip
+*.tar
+*.tar.gz
