@@ -10,4 +10,4 @@ The case is organized using the standard OpenFOAM directory structure:
 
 The public case configuration represents the selected setup used for the numerical study.
 
-Large generated simulation results and processor directories are intentionally excluded from this repository.
+Large generated simulation results and processor directories are intentionally excluded from this repository. 
