@@ -8,6 +8,6 @@ The case is organized using the standard OpenFOAM directory structure:
 - `constant/` — transport and turbulence-model properties
 - `system/` — mesh, numerical schemes, solver settings, and case-control configuration
 
-The public case configuration represents the selected setup used for the numerical study.
+The public case directory contains a retained OpenFOAM configuration associated with the numerical study. Multiple mesh, discretization, tolerance, and relaxation-factor configurations were investigated during the project, so this directory should not be interpreted as a complete archive of every case discussed in the study.
 
 Large generated simulation results and processor directories are intentionally excluded from this repository. 
